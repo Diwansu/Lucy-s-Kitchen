@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LUCY-S-KITCHEN</title>
-        <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
     <nav>
-        <div id="left-nav">
+       <div id="left-nav">
             <div id="left-nav-2">
-                <img id="logo" src="./Assets/logo.png" alt="logo">
-                <p>LUCY-S-KITCHEN</p>
-            </div>
-            <div class="inactive">
-                <p>About us</p>
-            </div>
-            <img id="search" src="./Assets/search.png" alt="search">
-             </div>
+              <img id="logo" src="./Assets/logo.png" alt="logo">
+               <p>LUCY-S-KITCHEN</p>
+               </div>
+
+        <div class="inactive">
+           <a href="#developer" > <p>About us</p> </a>
+        </div>
+    
+
+          <img id="search" src="./Assets/search.png" alt="search" />
+      </div>
     </nav>
 
-    <header>
-        <div id="welcome">
-            <p id="welcome2">Welcome to LUCY-S-KITCHEN -</p> <p>The seasoned kitchen with love.</p> 
-        </div>
-        <div id="explore">
-            <p>Cooking is like magic. You take ingredients and transform them into something delicious.</p>
-        </div>
-        <div id="cooking">
-            <p>"The secret of success in life is to eat what you like and let the food fight it out inside." - Mark Twain</p>
-        </div>
-         
-        <div class="flex-adjust" >
-        <input class="Input" type="text" placeholder="Enter your desired food"/>
-            <button class="Search-Button"> <img src="./Assets/search.png"</button>
-            </div>
+    <section id="adjustFlex">
+      <div id="mainContent">
+        <header>
+          <div id="welcome">
+            <p id="welcome2">LUCY-S-KITCHEN ~</p>
+            <p>The seasoned kitchen with love.</p>
+          </div>
+
+          <div id="flex-adjust">
+            <input id="Input"
+              class="Input"
+              type="text"
+              placeholder="Enter your desired food"
+            />
+            <button id="Search-Button"><img src="./Assets/search.png"> </button>
+          </div>
         </header>
-            <div id="blur"> </div>
+        <div id="blur"></div>
+
         <section>
-            
-             <h1 id="dish"> Today's Special </h1>
-             <div class="centerimage">
-                <div id="random-image"> 
-                </div>
-             </div>
-             
-             <div id="random-name"> </div>  
+          <h1 id="dish">Today's Special</h1>
+          <div class="centerimage">
+            <div id="random-image"></div>
+          </div>
+
+          <div id="random-name"></div>
         </section>
-        <div id="searchresult"> 
-             Your Searched Results
-        </div>
+      </div>
+      <div id="showimage">
+        <img
+          src="./Assets/Yellow Brown Modern Grilled Chicken Menu Discount Flyer.png"
+        />
+      </div>
+    </section>
+    <hr />
 
-              <div id="foundfood"> 
-                    </div>
+    <div id="searchresult">
+         <h2 class="titleadjust">Your Searched Results</h2> 
 
-                    <div id="ingredientsDisplay">
-                        <img id="cross" src="./Assets/remove.png">
-                    <h2>Ingredients:</h2>
-                    <ul id="ingredientsList"></ul>
-                    </div>
+    <div id="foundfood">
 
-        <div id="searchresults">
-            
-        </div>            
-</body>
-<script src="script.js">
-</script>
+    </div>
+    </div>
+
+    <div id="ingredientsDisplay">
+      <img id="cross" src="./Assets/remove.png" />
+      <h2>Ingredients:</h2>
+      <ul id="ingredientsList"></ul>
+    </div>
+
+    <hr>
+<footer id="developer">
+     
+        <p>Designed and Developed by: <br><br>
+          Diwanshu Baskota</p>
+     
+</footer>
+
+  </body>
+  <script src="script.js"></script>
 </html>
