@@ -328,6 +328,24 @@ footer {
   #showimage{
     width:70%;
   }
+  #foundfood{
+    display:block;
+    height:400px;
+    background-color: #480f6c;
+  }
+    .dish{
+      margin:32px;
+      height:400px;
+      width:77%;
+}
+  .dish img{
+    width:101%;
+  }
+
+   .food-desc{
+    font-style: italic;
+   }
+
 
   footer{
     font-size: 20px;
